@@ -21,6 +21,4 @@ int print_char(va_list list);
 int print_string(va_list list);
 int print_percent(va_list args);
 
-//int (*get_handler_func(char *s))(int, int);
-
 #endif
