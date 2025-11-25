@@ -17,10 +17,9 @@ typedef struct type_print
 int _putchar(char c);
 int _printf(const char *format, ...);
 
-int print_c(va_list list);
-int print_i(va_list list);
-int print_d(va_list list);
-int print_s(va_list list);
+int print_char(va_list list);
+int print_string(va_list list);
+int print_percent(va_list args);
 
 //int (*get_handler_func(char *s))(int, int);
 
