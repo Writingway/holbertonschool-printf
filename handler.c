@@ -8,38 +8,48 @@
  * @list: name of the person
  * Return: Division.
  */
-void print_c(va_list list)
+int print_c(va_list list)
 {
-	printf("%c", va_arg(list, int));
+	char c = va_arg(list, int);
+
+	_putchar(c);
+	return (c);
 }
 /**
  * print_i - print integer
  * @list: name of the person
  * Return: Division.
  */
-void print_i(va_list list)
+int print_i(va_list list)
 {
-	printf("%i", va_arg(list, int));
+	_putchar(va_arg(list, int));
 }
 /**
  * print_d - print float
  * @list: name of the person
  * Return: Division.
  */
-void print_d(va_list list)
+int print_d(va_list list)
 {
-	printf("%d", va_arg(list, int));
+	_putchar(va_arg(list, int));
 }
 /**
  * print_s - print string
  * @list: name of the person
  * Return: Division.
  */
-void print_s(va_list list)
+int print_s(va_list list)
 {
 	char *str = va_arg(list, char *);
+	int i = 0;
 
 	if (str == NULL)
 		str = "(nil)";
-	printf("%s", str);
+
+	while (str[i])
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	return (i);
 }
