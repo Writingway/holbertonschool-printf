@@ -38,16 +38,16 @@ int _printf(const char *format, ...)
 			}
 			if (params[j].name == NULL)
 			{
-				_putchar('%');
-				_putchar(format[i]);
-				count += 2;
+				count += _putchar('%');
+				count += _putchar(format[i]);
 			}
 		}
 		else
 		{
-			_putchar(format[i]);
+			count += _putchar(format[i]);
 		}
 		i++;
 	}
+	va_end(list);
 	return (count);
 }

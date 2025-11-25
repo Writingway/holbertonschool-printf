@@ -23,6 +23,7 @@ int print_char(va_list list)
 	char c = va_arg(list, int);
 
 	_putchar(c);
+	c += 1;
 	return (c);
 }
 /**
@@ -36,7 +37,9 @@ int print_string(va_list list)
 	int i = 0;
 
 	if (str == NULL)
-		str = "(nil)";
+	{
+		str = "nul";
+	}
 
 	while (str[i])
 	{
