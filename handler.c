@@ -21,10 +21,10 @@ int print_percent(va_list args)
 int print_char(va_list list)
 {
 	char c = va_arg(list, int);
+	int i = 1;
 
 	_putchar(c);
-	c += 1;
-	return (c);
+	return (i);
 }
 /**
  * print_string - print string
