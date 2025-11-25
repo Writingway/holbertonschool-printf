@@ -42,4 +42,12 @@ int main(void)
 	_printf("Unknown:[%r]\n");
 	// //printf("Unknown:[%r]\n");
 	// return (0);
+	int caca1 = 0;
+	int caca2 = 0;
+
+	caca1 = _printf("Let's print a simple sentence.\n");
+	caca2 = printf("Let's print a simple sentence.\n");
+	printf("ça de notre _printf : %d\n", caca1);
+	printf("ça : %d\n", caca2);
+
 }
