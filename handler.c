@@ -38,7 +38,7 @@ int print_string(va_list list)
 
 	if (str == NULL)
 	{
-		str = "nul";
+		str = "(null)";
 	}
 
 	while (str[i])
