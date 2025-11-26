@@ -48,3 +48,13 @@ int print_string(va_list list)
 	}
 	return (i);
 }
+/**
+ * print_percent - print float
+ * @list: name of the person
+ * Return: Division.
+ */
+int print_percent(va_list list)
+{
+	(void)list;
+	return (_putchar('%'));
+}
