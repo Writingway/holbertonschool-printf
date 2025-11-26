@@ -69,22 +69,4 @@ int print_percent(va_list list)
 	(void)list;
 	return (_putchar('%'));
 }
-/**
- * print_i - print integer
- * @list: name of the person
- * Return: Division.
- */
-int print_i(va_list list)
-{
-	_putchar(va_arg(list, int));
-}
-/**
- * print_d - print float
- * @list: name of the person
- * Return: Division.
- */
-int print_d(va_list list)
-{
-	_putchar(va_arg(list, int));
-}
 
