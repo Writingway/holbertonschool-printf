@@ -20,6 +20,12 @@ int _printf(const char *format, ...)
 		{"%", print_percent},
 		{NULL, NULL}};
 
+	if (format == NULL)
+		return (-1);
+
+	if (format[0] == '%' && format[1] == '\0')
+		return (-1);
+
 	va_start(list, format);
 
 	while (format != NULL && format[i] != '\0')
@@ -27,6 +33,7 @@ int _printf(const char *format, ...)
 		if (format[i] == '%')
 		{
 			i++;
+			j = 0;
 			while (params[j].name)
 			{
 				if (*params[j].name == format[i])

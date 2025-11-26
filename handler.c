@@ -33,17 +33,6 @@ int print_char(va_list list)
  */
 int print_string(va_list list)
 {
-	char c = va_args(list);
-
-	return (_putchar(c));
-}
-/**
- * print_s - print string
- * @list: name of the person
- * Return: Division.
- */
-int print_s(va_list list)
-{
 	char *str = va_arg(list, char *);
 	int i = 0;
 
@@ -69,4 +58,3 @@ int print_percent(va_list list)
 	(void)list;
 	return (_putchar('%'));
 }
-
