@@ -71,4 +71,5 @@ Authors
 -------
 - Mario Colomas
 - Victor Monnot
+- Hugo Chilemme
 
