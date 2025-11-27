@@ -57,18 +57,14 @@ int print_integer(va_list list)
 {
 	int n = va_arg(list, int);
 	int compteur = 0;
-	unsigned int num = n;
+	long num = n;
 
-	if (n < 0)
+	if (num < 0)
 	{
-		_putchar('-');
-		compteur++;
-		num = -n;
+		compteur += _putchar('-');
+		num = -num;
 	}
-	else
-	{
-		num = n;
-	}
+
 	compteur += print_integer_recursive(num);
 
 	return (compteur);
@@ -79,7 +75,7 @@ int print_integer(va_list list)
  * @n: n
  * Return: compteur
  */
-int print_integer_recursive(int n)
+int print_integer_recursive(long n)
 {
 	int compteur = 0;
 
