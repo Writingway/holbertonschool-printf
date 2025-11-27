@@ -57,7 +57,7 @@ int print_integer(va_list list)
 {
 	int n = va_arg(list, int);
 	int compteur = 0;
-	int num = n;
+	long int num = n;
 
 	if (num < 0)
 	{
