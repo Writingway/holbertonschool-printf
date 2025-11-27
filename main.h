@@ -21,5 +21,6 @@ int print_char(va_list list);
 int print_string(va_list list);
 int print_percent(va_list args);
 int print_integer(va_list list);
+int print_integer_recursive(int n);
 
 #endif
