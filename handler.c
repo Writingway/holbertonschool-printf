@@ -48,3 +48,43 @@ int print_string(va_list list)
 	}
 	return (i);
 }
+
+/**
+ * print_integer - print integer
+ * @list: list
+ * Return: compteur
+ */
+int print_integer(va_list list)
+{
+	int n = va_arg(list, int);
+	int compteur = 0;
+	int num = n;
+
+	if (num < 0)
+	{
+		_putchar('-');
+		compteur++;
+		num = -num;
+	}
+	compteur += print_integer_recursive(num);
+
+	return (compteur);
+}
+
+/**
+ * print_integer_recursive - print integer recursive
+ * @n: n
+ * Return: compteur
+ */
+int print_integer_recursive(int n)
+{
+	int compteur = 0;
+
+	if (n / 10)
+	{
+		compteur += print_integer_recursive(n / 10);
+	}
+
+	compteur += _putchar((n % 10) + '0');
+	return (compteur);
+}
