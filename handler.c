@@ -86,13 +86,4 @@ int print_integer_recursive(int n)
 
 	compteur += _putchar((n % 10) + '0');
 	return (compteur);
-/**
- * print_percent - print float
- * @list: name of the person
- * Return: Division.
- */
-int print_percent(va_list list)
-{
-	(void)list;
-	return (_putchar('%'));
 }
