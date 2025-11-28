@@ -4,9 +4,9 @@
 #include "main.h"
 
 /**
- * print_percent - print percent
- * @args: args
- * Return: 1
+ * print_percent - Print a percent symbol
+ * @args: List of arguments
+ * Return: Always 1
 */
 int print_percent(va_list args)
 {
@@ -14,9 +14,9 @@ int print_percent(va_list args)
 	return (_putchar('%'));
 }
 /**
- * print_char - print char
- * @list: list
- * Return: i
+ * print_char - Print a character
+ * @list: List of arguments
+ * Return: Always 1
  */
 int print_char(va_list list)
 {
@@ -27,9 +27,9 @@ int print_char(va_list list)
 	return (i);
 }
 /**
- * print_string - print string
- * @list: list
- * Return: i
+ * print_string - Print a string
+ * @list: List of arguments
+ * Return: The number of characters printed
  */
 int print_string(va_list list)
 {
@@ -49,9 +49,9 @@ int print_string(va_list list)
 	return (i);
 }
 /**
- * print_integer - print integer
- * @list: list
- * Return: compteur
+ * print_integer - Print an integer
+ * @list: List of arguments
+ * Return: The number of characters printed
  */
 int print_integer(va_list list)
 {
@@ -71,9 +71,9 @@ int print_integer(va_list list)
 }
 
 /**
- * print_integer_recursive - print integer recursively
- * @n: number
- * Return: compteur
+ * print_integer_recursive - Print an integer recursively
+ * @n: The number to be printed
+ * Return: The number of characters printed
  */
 int print_integer_recursive(long n)
 {
