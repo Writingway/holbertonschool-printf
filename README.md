@@ -19,6 +19,10 @@ A simple C implementation of `printf` (called `_printf`) can be found in this re
 
 The project's main goals are robustness, correctness for common specifiers, and readable, maintainable code written in the Betty coding style.
 
+Flowchart
+--------
+<img width="752" height="1471" alt="flowchar_mario drawio(1)" src="https://github.com/user-attachments/assets/a4755b03-3859-4018-b413-7f07a1cb7461" />
+
 Features
 --------
 - Common format specifiers (such as `%c`, `%s`, `%d`, `%i`, and `%%`) are supported.
