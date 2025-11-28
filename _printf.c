@@ -20,7 +20,8 @@ int _printf(const char *format, ...)
 		{"%", print_percent},
 		{"d", print_integer},
 		{"i", print_integer},
-		{NULL, NULL}};
+		{NULL, NULL}
+	};
 
 	if (format == NULL)
 		return (-1);
