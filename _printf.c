@@ -5,7 +5,7 @@
 #include <string.h>
 
 /**
- * _printf - Custom printf function
+ * _printf - produces output according to a format
  * @format: format string
  * Return: number of characters printed
  */
