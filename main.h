@@ -3,11 +3,10 @@
 #include <stdarg.h>
 
 /**
- * struct type_print - Struct type
- *
- * @name: The operator
- * @fptr: The function associated
- */
+ * struct type_print - structure for format types
+ * @name: format type
+ * @fptr: pointer to function
+*/
 typedef struct type_print
 {
 	char *name;

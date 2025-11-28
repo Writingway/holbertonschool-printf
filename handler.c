@@ -5,18 +5,18 @@
 
 /**
  * print_percent - print percent
- * @args: list
- * Return: Division.
- */
+ * @args: args
+ * Return: 1
+*/
 int print_percent(va_list args)
 {
 	(void)args;
 	return (_putchar('%'));
 }
 /**
- * print_char - print character
+ * print_char - print char
  * @list: list
- * Return: Division.
+ * Return: i
  */
 int print_char(va_list list)
 {
@@ -29,7 +29,7 @@ int print_char(va_list list)
 /**
  * print_string - print string
  * @list: list
- * Return: jsp
+ * Return: i
  */
 int print_string(va_list list)
 {
@@ -71,8 +71,8 @@ int print_integer(va_list list)
 }
 
 /**
- * print_integer_recursive - print integer recursive
- * @n: n
+ * print_integer_recursive - print integer recursively
+ * @n: number
  * Return: compteur
  */
 int print_integer_recursive(long n)

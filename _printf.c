@@ -5,7 +5,7 @@
 #include <string.h>
 
 /**
- * _printf - Custom printf function
+ * _printf - produces output according to a format
  * @format: format string
  * Return: number of characters printed
  */
@@ -20,7 +20,8 @@ int _printf(const char *format, ...)
 		{"%", print_percent},
 		{"d", print_integer},
 		{"i", print_integer},
-		{NULL, NULL}};
+		{NULL, NULL}
+	};
 
 	if (format == NULL)
 		return (-1);

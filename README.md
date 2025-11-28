@@ -8,6 +8,7 @@ Table of Contents
 - [Features](#features)
 - [Usage](#usage)
 - [Examples](#examples)
+- [Manual Page](#manual-page)
 - [Bugs & Reporting](#bugs--reporting)
 - [Styling (Betty)](#styling-betty)
 - [Authors](#authors)
@@ -53,6 +54,18 @@ Expected output:
 Hello, world!
 Percent sign: %
 Number: 42, Char: A
+```
+
+Manual Page
+-----------
+A dedicated manual page for `_printf` is provided in this repository.
+
+- **File:** `man_3_printf.man`
+- **Format:** Standard UNIX manual (groff)
+
+Usage
+```bash
+man ./man_3_printf.man
 ```
 
 Bugs & Reporting
