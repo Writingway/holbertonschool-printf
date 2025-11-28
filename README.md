@@ -9,6 +9,7 @@ Table of Contents
 - [Usage](#usage)
 - [Examples](#examples)
 - [Bugs & Reporting](#bugs--reporting)
+- [Manual Pages](#manual--page)
 - [Styling (Betty)](#styling-betty)
 - [Authors](#authors)
 
