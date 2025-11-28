@@ -62,10 +62,10 @@ A dedicated manual page for `_printf` is provided in this repository.
 - **File:** `man_3_printf.man`
 - **Format:** Standard UNIX manual (groff)
 
-### Usage
+Usage
 ```bash
 man ./man_3_printf.man
-
+```
 
 Bugs & Reporting
 ----------------
