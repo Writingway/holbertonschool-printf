@@ -8,8 +8,8 @@ Table of Contents
 - [Features](#features)
 - [Usage](#usage)
 - [Examples](#examples)
+- [Manual Page](#manual-page)
 - [Bugs & Reporting](#bugs--reporting)
-- [Manual Pages](#manual--page)
 - [Styling (Betty)](#styling-betty)
 - [Authors](#authors)
 
